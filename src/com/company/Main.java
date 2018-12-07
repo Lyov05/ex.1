@@ -22,11 +22,8 @@ public class Main {
         if (m < 0 && n > 0) {
             return true;
         }
-        if (n < 0 && m < 0 && negative) {
-            return true;
-        }
+        return n < 0 && m < 0 && negative;
 
-        return false;
     }}
 
 
